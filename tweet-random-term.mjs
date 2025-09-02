@@ -17,7 +17,7 @@ const twitterClient = new TwitterApi({
 });
 
 // サイトのURL（実際のURLに合わせてください）
-const siteUrl = process.env.SITE_URL || 'https://it-aikotoba.vercel.app';
+const siteUrl = process.env.SITE_URL || 'https://itkotoba.com';
 
 /**
  * ランダムなIT用語を1件取得する関数
